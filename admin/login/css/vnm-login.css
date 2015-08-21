@@ -1,0 +1,175 @@
+body.login {
+    background-color: #0274be;
+    background-image: url(../img/bg-blue-texture.jpg);
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-size: 1440px 286px;
+    padding-top: 80px;
+}
+
+body.login #login {
+    background: #fff;
+    color: #666;
+	padding: 60px;
+}
+
+body.login h1 a {
+	height: 95px;
+	padding-bottom: 0px;
+	width: 260px;
+}
+
+body.login #nav a,
+body.login #backtoblog a,
+body.login label {
+    color: #666 !important;
+    text-shadow: none;
+}
+
+body.login label[for="user_login"],
+body.login label[for="user_pass"] {
+	display: block;
+	height: 60px;
+}
+
+body.login #nav a:hover,
+body.login #backtoblog a:hover {
+    color: #0274be !important;
+    text-shadow: none;
+}
+
+body.login #nav,
+body.login #backtoblog {
+    clear: both;
+    margin: 16px 0 0 0;
+    padding: 0;
+}
+
+body.login #nav {
+	display: block;
+    margin-top: 32px;
+}
+
+body.login div#login h1 a {
+    background-image: url(../img/logo.png);/*
+    */background-size: 260px 95px;
+}
+
+body.login form {
+    background: none;
+    border: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+body.login .submit {
+	clear: both;
+    display: block;
+}
+
+body.login #wp-submit {
+	background: #0274be;
+	border-radius: 3px;
+	background-clip: padding-box;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	
+	border: none !important;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'museo-sans', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	height: 50px;
+	margin: 20px 0;
+	padding: 0px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.login form .input,
+.login input[type="text"] {
+	font-size: 16px;
+}
+
+body.login #wp-submit:hover {	    
+   	box-shadow: inset 0 3px 0 rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 3px 0 rgba(0,0,0,.2);
+	-webkit-box-shadow: inset 0 3px 0 rgba(0,0,0,.2);
+	background: #005f9d;
+	color: #fff;
+}
+
+body.login form .input,
+body.login input[type="text"] {
+    margin: 12px 0 !important;
+    padding: 16px;
+}
+
+body.login #login_error {
+	background: #a41600;
+	border: none;
+	color: #fff;
+	margin: 0 0 10px;
+}
+
+.login .message {
+	background: #e5f1f8;
+	border: 1px solid #bad8ec;
+	color: #274d66;
+	margin: 0 0 10px;
+	padding: 10px;
+}
+
+body.login #login_error a {
+	color: #fff;
+}
+
+
+body.login .description.indicator-hint {
+	clear: both !important;
+	display: block;
+}
+
+body.login .mysp-login-extras {
+	margin-top: 25px;
+	margin-top: 2.5rem;
+	text-align: center;
+}
+
+body.login .mysp-login-extras a {
+	color: #84cfff;
+	line-height: 1.5;
+}
+
+body.login .mysp-login-extras a:hover {
+	color: #fff;
+}
+
+body.login p.forgetmenot {
+	display: block;
+	margin-top: 40px;
+}
+
+#lostpasswordform label[for="user_login"] {
+	margin-bottom: 20px;
+}
+
+
+/* Retina display ----------- */
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max-moz-device-pixel-ratio: 2) {
+	
+	body.login div#login h1 a {
+    	background-image: url(../images/logo-color@2x.png);
+	}
+	
+}
